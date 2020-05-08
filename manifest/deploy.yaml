@@ -12,7 +12,7 @@ spec:
         app: hello
     spec:
       containers: 
-        - name: ms-client
+        - name: hello
           image: ridwands/hello-golang
           imagePullPolicy: Always
           command: ["./main"]
